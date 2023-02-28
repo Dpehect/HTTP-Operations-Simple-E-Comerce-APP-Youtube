@@ -7,7 +7,7 @@ const app = express();
 const path = require('path');
 
 // Veritabanı bağlantısı
-mongoose.connect('mongodb+srv://Dpehect:deneme123@cluster0.olfqcop.mongodb.net/products', {
+mongoose.connect('mongodb+srv://username:password@cluster0.olfqcop.mongodb.net/products', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
